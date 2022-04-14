@@ -2,6 +2,7 @@ import SideBar from './components/SideBar'
 import TopBar from './components/TopBar'
 import ScrollToTop from './components/ScrollToTop'
 import LogOutModal from './components/LogOutModal'
+import Footer from './components/Footer'
 
 const Layout = ({ children }) => {
   return (
@@ -21,6 +22,7 @@ const Layout = ({ children }) => {
       <ScrollToTop />
       {/* add log out model here */}
       <LogOutModal />
+      <Footer />  
     </>
   )
 }
